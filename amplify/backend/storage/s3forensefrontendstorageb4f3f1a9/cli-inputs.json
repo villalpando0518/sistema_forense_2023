@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3forensefrontendstorageb4f3f1a9",
+  "bucketName": "forense-frontend-storage-b4f3f1a9",
+  "policyUUID": "de39f8f3",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
