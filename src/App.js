@@ -2,12 +2,12 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 
-//import { Amplify } from 'aws-amplify';
+import { Amplify } from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
-//import awsExports from "./aws-exports";
+import awsExports from "./aws-exports";
 import { Auth } from 'aws-amplify';
 
-//Amplify.configure(awsExports);
+Amplify.configure(awsExports);
 
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
   }, []);
   return (
     <div>
-      <h1>App Forense</h1>
-      <p>Usuario autenticado: {user ? user.name : 'Ningún usuario autenticado'}</p>
+      <h1>App Forense hmmm</h1>
+      <p>Usuario: {user ? user.name : 'Ningún usuario autenticado'}</p>
     </div>
   );
 }
