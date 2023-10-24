@@ -24,7 +24,7 @@ function App() {
   }, []);
   return (
     <div>
-      <h1>App Forense hmmm</h1>
+      <h1>App Forense hmmmmm</h1>
       <p>Usuario: {user ? user.name : 'Ningún usuario autenticado'}</p>
     </div>
   );
