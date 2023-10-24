@@ -1,0 +1,4 @@
+type Modeloprueba @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  nombre: String
+}
