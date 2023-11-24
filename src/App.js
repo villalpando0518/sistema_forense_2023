@@ -1,6 +1,5 @@
-
 import './App.css';
-import React, { useEffect, useState } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 
 import { Amplify } from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
@@ -11,21 +10,20 @@ Amplify.configure(awsExports);
 
 
 function App() {
-  
+
   const [user, setUser] = useState(null);
   useEffect(() => {
-   
     async function fetchAuthenticatedUser() {
       const userInfo = await Auth.currentAuthenticatedUser();
-      setUser(userInfo.attributes); 
+      setUser(userInfo.attributes);
     }
 
     fetchAuthenticatedUser();
   }, []);
   return (
     <div>
-      <h1>App Forense hmmmmm</h1>
-      <p>Usuario: {user ? user.name : 'Ningún usuario autenticado'}</p>
+      <h2>Nuevo Componente</h2>
+      {/* Agrega más contenido según sea necesario */}
     </div>
   );
 }
