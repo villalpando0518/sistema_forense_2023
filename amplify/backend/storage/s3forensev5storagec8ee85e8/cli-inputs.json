@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3forensev5storagec8ee85e8",
+  "bucketName": "forensev5-storage-c8ee85e8",
+  "policyUUID": "5d3b8183",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

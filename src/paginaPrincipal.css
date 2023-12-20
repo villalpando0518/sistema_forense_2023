@@ -1,0 +1,107 @@
+.pagina-principal {
+    display: grid;
+    display: grid;
+    place-items: center;
+    min-width: 60%;
+}
+
+.cabecera {
+    display: flex;
+    font-size: small;
+    color: orange;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 30px;
+
+}
+
+.logotipo {
+    display: flex;
+    width: 250px;
+    height: 125px;
+    margin-right: 30px;
+}
+
+.titulo-principal {
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.botones-superior {
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.boton-agregar-excel {
+    margin-left: 100px;
+    background-color: #6494a4;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-oculto {
+    display: none;
+}
+
+.seleccion-algoritmos {
+    display: flex;
+    background-color: #6494a4;
+    margin-left: 300px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.boton-ejemplo-excel {
+    display: flex;
+    margin-left: 200px;
+    background-color: #6494a4;
+    border-radius: 10px;
+    align-items: center;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.comenzar-algoritmo {
+    margin-left: 100px;
+}
+
+.mostrar-resultado {
+    background-color: aliceblue;
+    width: 1210px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.botones-inferior {
+    display: flex;
+    font-weight: bold;
+}
+
+
+.boton-descargar-bot {
+    display: flex;
+    margin-left: 150px;
+    background-color: #6494a4;
+    border-radius: 10px;
+    align-items: center;
+    color: aliceblue;
+}
+
+.historial {
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+
+.titulo-cabecera-main {
+    width: 70%;
+}

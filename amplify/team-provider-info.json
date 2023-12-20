@@ -1,0 +1,28 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-forensev5-staging-80542-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088251628631:role/amplify-forensev5-staging-80542-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088251628631:role/amplify-forensev5-staging-80542-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-forensev5-staging-80542-deployment",
+      "UnauthRoleName": "amplify-forensev5-staging-80542-unauthRole",
+      "StackName": "amplify-forensev5-staging-80542",
+      "StackId": "arn:aws:cloudformation:us-east-2:088251628631:stack/amplify-forensev5-staging-80542/6dec8c70-8b69-11ee-be5c-063d2c3b1207",
+      "AmplifyAppId": "d369hxy3mpqmnf"
+    },
+    "categories": {
+      "auth": {
+        "forensefrontend": {},
+        "forenseV5": {}
+      },
+      "storage": {
+        "s3forensefrontendstorageb4f3f1a9": {},
+        "s3forensev5storagec8ee85e8": {}
+      },
+      "function": {
+        "forensefrontenda34f6713": {}
+      }
+    }
+  }
+}
