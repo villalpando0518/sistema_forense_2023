@@ -3,6 +3,7 @@
     display: grid;
     place-items: center;
     min-width: 60%;
+    background-color: rgb(51, 49, 49);
 }
 
 .cabecera {
@@ -74,11 +75,13 @@
 }
 
 .mostrar-resultado {
-    background-color: aliceblue;
+    background-color: rgb(146, 155, 163);
     width: 1210px;
     height: 400px;
     margin-top: 10px;
     margin-bottom: 20px;
+    overflow: scroll;
+    overflow-y: 'auto';
 }
 
 .botones-inferior {
@@ -104,4 +107,8 @@
 
 .titulo-cabecera-main {
     width: 70%;
+}
+
+.mensaje {
+    color: red;
 }
